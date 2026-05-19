@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-05-20
+
+- **guides**: added `sources` field
+
 ## 2026-04-15
 
 - **logos**: added `in_use` field
