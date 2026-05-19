@@ -185,7 +185,14 @@ https://iptv-org.github.io/api/guides.json
     "site": "sky.co.uk",
     "site_id": "bbcone",
     "site_name": "BBC One",
-    "lang": "en"
+    "lang": "en",
+    "sources": [
+      {
+        "host": "example.com",
+        "url": "https://example.com/guide.xml",
+        "format": "XML"
+      }
+    ]
   },
   //...
 ]
@@ -199,6 +206,7 @@ https://iptv-org.github.io/api/guides.json
 | site_id   | string         | Unique channel ID used on the site                                                |
 | site_name | string         | Channel name used on the site                                                     |
 | lang      | string         | Language of the guide ([ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1) code) |
+| sources   | array          | List of available sources of the guide                                            |
 
 Source of data: https://github.com/iptv-org/epg
 
